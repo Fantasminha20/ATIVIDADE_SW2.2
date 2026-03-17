@@ -2,30 +2,30 @@
 
 
 
+export function nomes() {
+  let usuarios = [{
 
-let usuarios = [{
-  
-    nome:"daniel",
-    idade:17,
-    sexo:"masculino"
+    nome: "Daniel",
+    idade: 17,
+    sexo: "masculino"
   },
-{
-    nome:"yago",
-    idade:17,
-    sexo:"masculino"
+  {
+    nome: "Yago",
+    idade: 17,
+    sexo: "masculino"
   },
- {
-    nome:"ana",
-    idade:15,
-    sexo:"feminino"
+  {
+    nome: "Ana",
+    idade: 15,
+    sexo: "feminino"
   }
 
 
-]
+  ]
 
-
-const nomes = usuarios.map(function(usuario) {
+  const nomes = usuarios.map(function (usuario) {
     return usuario.nome
-}) 
+  })
 
-console.log(nomes)
+  return nomes
+};

@@ -1,0 +1,25 @@
+{
+  "name": "atividade_sw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielsilva2009/atividade_sw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielsilva2009/atividade_sw/issues"
+  },
+  "homepage": "https://github.com/Danielsilva2009/atividade_sw#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}

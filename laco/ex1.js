@@ -1,9 +1,15 @@
-// for faca um programa que repita um numero de 1 a 10
+//1. Crie um programa que calcule a soma de números pares entre 1 e 20.
 
+export function somaPares() {
+    let soma = 0;
+    let numero = 1;
 
+    while (numero <= 20) {
+        if (numero % 2 === 0) {
+            soma += numero;
+        }
+        numero++;
+    }
 
-
-for (let a = 0; a <= 10; a++) {
-    console.log(a)
-    
-}
+    return "A soma dos numeros pares entre 1 e 20 é: " + soma;
+};

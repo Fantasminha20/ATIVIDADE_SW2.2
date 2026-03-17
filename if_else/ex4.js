@@ -1,31 +1,14 @@
+//4. Crie um programa para verificar se uma cidade é grnade ou pequena. 
+// Considere que cidades com mais de 100.000 habitantes são grandes, e as demais são pequenas. 
+// if composto
+//const Sao_Paulo = 12300000;
 
+export function extersao(Sao_Paulo) {
 
-
-// 4- Sistema de Recomendação de Saúde (Anemia)
-//Com base no nível de ferro no sangue e no gênero, determine o diagnóstico: 
-
-//Homens: Normal se ferro > 13.5; Anêmico se menor.
-//Mulheres: Normal se ferro > 12.0; Anêmica se menor.
-//Crianças: Normal se ferro > 11.0; Anêmica se menor.
-
-
-
-let pessoa = [{
-  
-  sexo:"masculino",
-  idade: 18,
-  ferro: 15
-}]
-
-
-
-if(pessoa[0].sexo == 'masculino' & pessoa[0].idade >= 18 & pessoa[0].ferro < 13,5){
-  
-  
-  if (pessoa[0].ferro < 13,5) {
-    console.log("normal")
+  if (Sao_Paulo > 100000) {
+    return ("São Paulo é uma cidade grande")
+  } else {
+    return ("São Paulo é uma cidade pequena")
   }
-  
-  
-  
-}
+
+};

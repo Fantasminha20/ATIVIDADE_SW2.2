@@ -3,14 +3,14 @@
 //O usuario for igual a "admin" E a senha for igual a "1234".
 
 
+export function validacaoLogin() {
+  let usuario = 'admin'
+  let senha = '1234'
 
-let usuario = 'admin'
-let senha = '1234'
-
-if(usuario == 'admin' & senha == '1234'){
-  console.log('sucesso')
-}
-else {
-  console.log("erro")
-}
-
+  if (usuario == 'admin' & senha == '1234') {
+    return 'sucesso'
+  }
+  else {
+    return "erro"
+  }
+};
