@@ -1,4 +1,5 @@
 //operadores logicos
+
 import express from 'express'
 const router_operadores_logicos = express();
 
@@ -21,4 +22,4 @@ router_operadores_logicos.get('/ex3logicos', (req, res) => {
    res.send(resultado)
 });
 
-export {router_operadores_logicos}
+export { router_operadores_logicos }

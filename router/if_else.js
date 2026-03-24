@@ -1,4 +1,5 @@
 // if_else
+
 import express from 'express'
 const router_if_else = express.Router()
 
@@ -31,4 +32,4 @@ router_if_else.get('/ex4', (req, res) => {
    res.send(resultado)
 });
 
-export {router_if_else}
+export { router_if_else }

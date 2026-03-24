@@ -36,4 +36,4 @@ router_laco.get('/ex5laco', (req, res) => {
    res.send(resultado)
 });
 
-export {router_laco}
+export { router_laco }

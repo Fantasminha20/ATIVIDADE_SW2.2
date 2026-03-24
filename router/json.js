@@ -1,4 +1,5 @@
 //json
+
 import express from 'express'
 const router_json = express();
 import { alunos } from "../json/ex1.js";
@@ -8,4 +9,4 @@ router_json.get('/ex1json', (req, res) => {
    res.send(resultado)
 });
 
-export{router_json}
+export { router_json }

@@ -1,4 +1,5 @@
 //operadores aritmeticos
+
 import express from 'express'
 const router_operadores_aritimeticos = express()
 
@@ -48,4 +49,4 @@ router_operadores_aritimeticos.get('/ex7aritimeticos', (req, res) => {
 });
 
 
-export{router_operadores_aritimeticos}
+export { router_operadores_aritimeticos }

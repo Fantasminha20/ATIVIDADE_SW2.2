@@ -1,4 +1,5 @@
 //case
+
 import express from 'express'
 const router_case = express.Router()
 
@@ -11,6 +12,27 @@ router_case.get('/ex1_case', (req, res) => {
    res.send(resultado)
 });
 
-export {router_case}
+/*router_case.get('/ex1_case', (req, res) => {
+
+   let {dia} = req.body
+   let resultado = exe_case(dia);
+   res.send(resultado)
+});*/
+
+/*app.post('/ex4', (req, res) => {
+
+   let { base, altura } = req.body
+   let area = (base * altura) / 2
+   let resposta = {
+
+       resultado: area
+
+   }
+   res.json(resposta)
+
+});*/
+
+
+export { router_case }
 
 

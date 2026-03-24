@@ -1,4 +1,5 @@
 //vetor
+
 import express from 'express'
 const router_vetor = express()
 
@@ -15,4 +16,4 @@ router_vetor.get('/ex2vetor', (req, res) => {
    res.send(resultado)
 });
 
-export {router_vetor}
+export { router_vetor }

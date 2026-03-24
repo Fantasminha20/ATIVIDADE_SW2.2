@@ -1,4 +1,5 @@
 //operadores relacionais
+
 import express from 'express'
 const router_operadores_relacionais = express()
 
@@ -15,8 +16,8 @@ router_operadores_relacionais.get('/ex1relacionais', (req, res) => {
    let resultado = carteiraMotorista()
    res.send(resultado)
 });
-   
-   router_operadores_relacionais.get('/ex2relacionais', (req, res) => {
+
+router_operadores_relacionais.get('/ex2relacionais', (req, res) => {
    let resultado = administracao()
    res.send(resultado)
 });
@@ -41,4 +42,4 @@ router_operadores_relacionais.get('/ex6relacionais', (req, res) => {
    res.send(resultado)
 });
 
-export {router_operadores_relacionais}
+export { router_operadores_relacionais }
