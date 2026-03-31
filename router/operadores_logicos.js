@@ -1,7 +1,7 @@
 //operadores logicos
 
 import express from 'express'
-const router_operadores_logicos = express();
+const router_operadores_logicos = express.Router();
 
 import { validacaoLogin } from "../operadores_logicos/ex1.js";
 import { sistemaBonus } from "../operadores_logicos/ex2.js";

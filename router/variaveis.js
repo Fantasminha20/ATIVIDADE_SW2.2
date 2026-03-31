@@ -1,7 +1,7 @@
 //variaveis
 
 import express from 'express'
-const router_variaveis = express();
+const router_variaveis = express.Router();
 
 import { compra } from "../variaveis/ex1.js";
 import { conversao } from "../variaveis/ex2.js";
@@ -40,10 +40,17 @@ router_variaveis.get('/ex2variaveis', (req, res) => {
    res.send(resultado)
 });*/
 router_variaveis.post('/ex3variaveis', (req, res) => {
-   let resultado = areaRetangulo()
-   res.send(resultado)
-});
 
+    let { largura, altura } = req.body
+    let area = (largura * altura)
+    let resposta = {
+
+        resultado: area
+
+    }
+    res.json(resposta)
+
+});
 
 
 export { router_variaveis }

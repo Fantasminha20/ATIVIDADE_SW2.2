@@ -12,6 +12,7 @@ import { router_variaveis } from './router/variaveis.js';
 import { router_vetor } from './router/vetor.js';
 
 app.use(express.Router())
+app.use(express.json());
 
 
 

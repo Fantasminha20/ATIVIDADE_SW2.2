@@ -1,7 +1,7 @@
 //operadores aritmeticos
 
 import express from 'express'
-const router_operadores_aritimeticos = express()
+const router_operadores_aritimeticos = express.Router()
 
 
 import { calculadora } from '../operadores_aritimeticos/ex1.js';

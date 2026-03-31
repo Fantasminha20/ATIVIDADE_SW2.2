@@ -1,7 +1,7 @@
 //operadores relacionais
 
 import express from 'express'
-const router_operadores_relacionais = express()
+const router_operadores_relacionais = express.Router()
 
 import { carteiraMotorista } from '../operadores_relacionais/ex1.js';
 import { administracao } from '../operadores_relacionais/ex2.js';
