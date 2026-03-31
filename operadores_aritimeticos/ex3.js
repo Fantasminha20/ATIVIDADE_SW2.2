@@ -4,9 +4,9 @@
 export function restoDivisao() {
     let ab = 17
 
-    let res = (ab % 3)
+    let ress = (ab % 3)
 
-    return res
+    return ress
 };
 
 

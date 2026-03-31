@@ -1,8 +1,7 @@
 // 5- numero negativo ou positivo
 
 
-export function numeroPositivoNegativo() {
-  let numero = 5
+export function numeroPositivoNegativo(numero) {
 
 
   if (numero > 0) {

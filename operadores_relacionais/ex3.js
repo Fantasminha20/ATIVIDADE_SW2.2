@@ -1,8 +1,7 @@
 // 3- nota : se nota for menor que 5 entao o aluno está reprovado
 
 
-export function notaAluno() {
-    let nota = 7
+export function notaAluno(nota) {
 
     if (nota > 5) {
         return "aprovado"

@@ -73,7 +73,7 @@ router_laco.get('/ex3laco', (req, res) => {
 router_laco.post('/ex4laco', (req, res) => {
     let { pessoas } = req.body
     let resultado = {
-        resposta: `Pessoas: ${pessoas.join(', olá!')}`
+        resposta: `Pessoas: (´ola! ${pessoas},´)}`
     }
     res.json(resultado);
 });

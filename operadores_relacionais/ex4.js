@@ -1,7 +1,7 @@
 // 4 - se a idade do usuario for menor de 18 anos entao nao pode acessar o site
 
-export function acessoSite() {
-let idade = 6
+export function acessoSite(idade) {
+
 
 
 if(idade >= 18){

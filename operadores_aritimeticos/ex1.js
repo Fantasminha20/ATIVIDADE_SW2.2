@@ -1,6 +1,6 @@
 // 1-Calculadora Básica: Crie duas variáveis, a = 10 e b = 5. Mostre no console a soma, subtração, multiplicação, divisão e o resto da divisão entre elas
 
-export function calculadora() {
+export function calculadora(q) {
     let a = 10
 
     let b = 5
