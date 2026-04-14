@@ -3,8 +3,8 @@
 //O funcionário deve ter mais de 2 anos de casa AND ter vendido mais de R$ 50.000,00.
 //OU, se ele for o "Funcionário do Mês", ele ganha o bônus independente do tempo ou vendas.
 
-export function sistemaBonus() {
-  let funcionario = [{
+export function sistemaBonus(funcionario) {
+   funcionario = [{
 
     tempo_empresa: 1,
     vendas: 700,

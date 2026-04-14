@@ -2,10 +2,11 @@
 //  temperatura_fahrenheit que converta o valor 
 // para Fahrenheit usando a fórmula correta. Mostre o resultado da conversão.
 
-export function conversao() {
+export function conversao(temperatura_fahrenheit, temperatura_celsius) {
 
-    let temperatura_fahrenheit = (temperatura_celsius * 9 / 5 + 32)
+    let temperatura = (temperatura_fahrenheit = (temperatura_celsius * 9 / 5 + 32))
+    
 
-    return temperatura_fahrenheit
+    return temperatura
 
 };

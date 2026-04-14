@@ -1,13 +1,11 @@
 // while faca um programa que repita um numero de 1 a 30
 
 export function numero() {
-    let a = 0
-    let lista = []
+    let lista = [];
 
-    while (a < 30) {
-        a++
-        lista.push(a)
+    for (let i = 1; i <= 30; i++) {
+        lista.push(i);
     }
 
-    return lista
-};
+    return lista;
+}

@@ -1,8 +1,7 @@
 //1. Crie um programa que calcule a soma de números pares entre 1 e 20.
 
-export function somaPares() {
-    let soma = 0;
-    let numero = 1;
+export function somaPares(soma, numero) {
+    
 
     while (numero <= 20) {
         if (numero % 2 === 0) {

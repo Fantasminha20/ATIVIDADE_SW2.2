@@ -1,4 +1,4 @@
-// 2-Soma de Dois Vetores: Crie dois vetores (a e b) de 10 elementos. Gere um terceiro vetor (c) onde cada posição é a soma dos elementos correspondentes de a e b.
+// 2-Soma de Dois Vetores: Crie dois vetores (a e b) de 5 elementos. Gere um terceiro vetor (c) onde cada posição é a soma dos elementos correspondentes de a e b.
 
 export function criacaoVetor() {
     let a = [1, 2, 3, 4, 5]

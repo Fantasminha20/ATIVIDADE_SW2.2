@@ -66,7 +66,7 @@ router_if_else.get('/ex3_ifElse/:turno', (req, res) => {
 router_if_else.get('/ex4_ifElse/:Sao_Paulo', (req, res) => {
    let { Sao_Paulo } = req.params
    let resultado = {
-      resposta: extersao(Sao_Paulo)
+      resposta: extersao (Sao_Paulo)
    }
    res.send(resultado)
 });
